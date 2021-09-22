@@ -1,0 +1,1790 @@
+[
+  {
+    "imageName": "White",
+    "colorsIcon": "ic_color_symbol_1",
+    "size": "5",
+    "red": 255,
+    "green": 255,
+    "blue": 255,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "blanc"
+      }
+    ]
+  },
+  {
+    "imageName": "Ecru",
+    "colorsIcon": "ic_color_symbol_2",
+    "size": "4",
+    "red": 233,
+    "green": 233,
+    "blue": 213,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "Ecru"
+      },
+      {
+        "title": "Gamma",
+        "number": "1"
+      }
+    ]
+  },
+  {
+    "imageName": "Ultra white",
+    "colorsIcon": "ic_color_symbol_3",
+    "size": "15",
+    "red": 255,
+    "green": 255,
+    "blue": 255,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "B5200"
+      }
+    ]
+  },
+  {
+    "imageName": "Dusty Rose ultra very dark",
+    "colorsIcon": "ic_color_symbol_4",
+    "size": "53",
+    "red": 157,
+    "green": 57,
+    "blue": 71,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "150"
+      },
+      {
+        "title": "Gamma",
+        "number": "3235"
+      }
+    ]
+  },
+  {
+    "imageName": "Dusty Rose — very light",
+    "colorsIcon": "ic_color_symbol_5",
+    "size": "34",
+    "red": 241,
+    "green": 188,
+    "blue": 197,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "151"
+      },
+      {
+        "title": "Gamma",
+        "number": "3236"
+      }
+    ]
+  },
+  {
+    "imageName": "Shell Pink — medium light",
+    "colorsIcon": "ic_color_symbol_6",
+    "size": "11",
+    "red": 206,
+    "green": 162,
+    "blue": 161,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "152"
+      },
+      {
+        "title": "Gamma",
+        "number": "3013"
+      }
+    ]
+  },
+  {
+    "imageName": "Violet — very light",
+    "colorsIcon": "ic_color_symbol_7",
+    "size": "22",
+    "red": 221,
+    "green": 189,
+    "blue": 216,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "153"
+      },
+      {
+        "title": "Gamma",
+        "number": "3251"
+      }
+    ]
+  },
+  {
+    "imageName": "Grape — very dark",
+    "colorsIcon": "ic_color_symbol_8",
+    "size": "34",
+    "red": 76,
+    "green": 46,
+    "blue": 61,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "154"
+      },
+      {
+        "title": "Gamma",
+        "number": "3237"
+      }
+    ]
+  },
+  {
+    "imageName": "Blue Violet — medium dark",
+    "colorsIcon": "ic_color_symbol_9",
+    "size": "67",
+    "red": 144,
+    "green": 140,
+    "blue": 193,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "155"
+      },
+      {
+        "title": "Gamma",
+        "number": "3238"
+      }
+    ]
+  },
+  {
+    "imageName": "Blue Violet — medium light",
+    "colorsIcon": "ic_color_symbol_10",
+    "size": "87",
+    "red": 140,
+    "green": 155,
+    "blue": 195,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "156"
+      },
+      {
+        "title": "Gamma",
+        "number": "3048"
+      }
+    ]
+  },
+  {
+    "imageName": "Cornflower Blue — very light",
+    "colorsIcon": "ic_color_symbol_11",
+    "size": "98",
+    "red": 172,
+    "green": 194,
+    "blue": 221,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "157"
+      },
+      {
+        "title": "Gamma",
+        "number": "3239"
+      }
+    ]
+  },
+  {
+    "imageName": "Cornflower Blue — medium very dark",
+    "colorsIcon": "ic_color_symbol_12",
+    "size": "5",
+    "red": 71,
+    "green": 81,
+    "blue": 128,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "158"
+      },
+      {
+        "title": "Gamma",
+        "number": "3240"
+      }
+    ]
+  },
+  {
+    "imageName": "Gray Blue — light",
+    "colorsIcon": "ic_color_symbol_13",
+    "size": "5",
+    "red": 167,
+    "green": 180,
+    "blue": 204,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "159"
+      },
+      {
+        "title": "Gamma",
+        "number": "3049"
+      }
+    ]
+  },
+  {
+    "imageName": "Gray Blue — medium",
+    "colorsIcon": "ic_color_symbol_14",
+    "size": "5",
+    "red": 131,
+    "green": 145,
+    "blue": 173,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "160"
+      },
+      {
+        "title": "Gamma",
+        "number": "3050"
+      }
+    ]
+  },
+  {
+    "imageName": "Gray Blue",
+    "colorsIcon": "ic_color_symbol_15",
+    "size": "5",
+    "red": 103,
+    "green": 118,
+    "blue": 147,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "161"
+      },
+      {
+        "title": "Gamma",
+        "number": "3242"
+      }
+    ]
+  },
+  {
+    "imageName": "Blue — ultra very light",
+    "colorsIcon": "ic_color_symbol_16",
+    "size": "5",
+    "red": 190,
+    "green": 219,
+    "blue": 229,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "162"
+      },
+      {
+        "title": "Gamma",
+        "number": "3243"
+      }
+    ]
+  },
+  {
+    "imageName": "Celadon Green — medium",
+    "colorsIcon": "ic_color_symbol_17",
+    "size": "5",
+    "red": 88,
+    "green": 148,
+    "blue": 114,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "163"
+      },
+      {
+        "title": "Gamma",
+        "number": "3063"
+      }
+    ]
+  },
+  {
+    "imageName": "Forest Green — light",
+    "colorsIcon": "ic_color_symbol_18",
+    "size": "5",
+    "red": 160,
+    "green": 203,
+    "blue": 143,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "164"
+      },
+      {
+        "title": "Gamma",
+        "number": "3252"
+      }
+    ]
+  },
+  {
+    "imageName": "Moss Green — very light",
+    "colorsIcon": "ic_color_symbol_19",
+    "size": "5",
+    "red": 218,
+    "green": 215,
+    "blue": 126,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "165"
+      },
+      {
+        "title": "Gamma",
+        "number": "3244"
+      }
+    ]
+  },
+  {
+    "imageName": "Moss Green — medium light",
+    "colorsIcon": "ic_color_symbol_20",
+    "size": "5",
+    "red": 191,
+    "green": 186,
+    "blue": 51,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "166"
+      },
+      {
+        "title": "Gamma",
+        "number": "818"
+      }
+    ]
+  },
+  {
+    "imageName": "Yellow Beige — very dark",
+    "colorsIcon": "ic_color_symbol_21",
+    "size": "5",
+    "red": 158,
+    "green": 131,
+    "blue": 75,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "167"
+      },
+      {
+        "title": "Gamma",
+        "number": "3253"
+      }
+    ]
+  },
+  {
+    "imageName": "Pewter — very light",
+    "colorsIcon": "ic_color_symbol_22",
+    "size": "5",
+    "red": 180,
+    "green": 195,
+    "blue": 193,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "168"
+      },
+      {
+        "title": "Gamma",
+        "number": "3045"
+      }
+    ]
+  },
+  {
+    "imageName": "Pewter — light",
+    "colorsIcon": "ic_color_symbol_23",
+    "size": "5",
+    "red": 139,
+    "green": 154,
+    "blue": 148,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "169"
+      },
+      {
+        "title": "Gamma",
+        "number": "3043"
+      }
+    ]
+  },
+  {
+    "imageName": "Lavender — very dark",
+    "colorsIcon": "ic_color_symbol_24",
+    "size": "5",
+    "red": 151,
+    "green": 114,
+    "blue": 170,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "208"
+      },
+      {
+        "title": "Gamma",
+        "number": "111"
+      }
+    ]
+  },
+  {
+    "imageName": "Lavender — dark",
+    "colorsIcon": "ic_color_symbol_25",
+    "size": "5",
+    "red": 181,
+    "green": 148,
+    "blue": 181,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "209"
+      },
+      {
+        "title": "Gamma",
+        "number": "3107"
+      }
+    ]
+  },
+  {
+    "imageName": "Lavender — medium",
+    "colorsIcon": "ic_color_symbol_26",
+    "size": "5",
+    "red": 201,
+    "green": 176,
+    "blue": 220,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "210"
+      },
+      {
+        "title": "Gamma",
+        "number": "76"
+      }
+    ]
+  },
+  {
+    "imageName": "Lavender — light",
+    "colorsIcon": "ic_color_symbol_27",
+    "size": "5",
+    "red": 212,
+    "green": 196,
+    "blue": 227,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "211"
+      },
+      {
+        "title": "Gamma",
+        "number": "1095"
+      }
+    ]
+  },
+  {
+    "imageName": "Shell Pink — very dark",
+    "colorsIcon": "ic_color_symbol_28",
+    "size": "5",
+    "red": 135,
+    "green": 66,
+    "blue": 58,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "221"
+      },
+      {
+        "title": "Gamma",
+        "number": "865"
+      }
+    ]
+  },
+  {
+    "imageName": "Shell Pink — light",
+    "colorsIcon": "ic_color_symbol_29",
+    "size": "5",
+    "red": 186,
+    "green": 129,
+    "blue": 124,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "223"
+      },
+      {
+        "title": "Gamma",
+        "number": "3014"
+      }
+    ]
+  },
+  {
+    "imageName": "Shell Pink — very light",
+    "colorsIcon": "ic_color_symbol_30",
+    "size": "5",
+    "red": 222,
+    "green": 179,
+    "blue": 167,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "224"
+      },
+      {
+        "title": "Gamma",
+        "number": "3095"
+      }
+    ]
+  },
+  {
+    "imageName": "Shell Pink — ultra very light",
+    "colorsIcon": "ic_color_symbol_31",
+    "size": "5",
+    "red": 236,
+    "green": 217,
+    "blue": 208,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "225"
+      },
+      {
+        "title": "Gamma",
+        "number": "765"
+      }
+    ]
+  },
+  {
+    "imageName": "Mahogany — very dark",
+    "colorsIcon": "ic_color_symbol_32",
+    "size": "5",
+    "red": 119,
+    "green": 78,
+    "blue": 40,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "300"
+      },
+      {
+        "title": "Gamma",
+        "number": "0930"
+      }
+    ]
+  },
+  {
+    "imageName": "Mahogany — medium",
+    "colorsIcon": "ic_color_symbol_33",
+    "size": "5",
+    "red": 169,
+    "green": 103,
+    "blue": 54,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "301"
+      },
+      {
+        "title": "Gamma",
+        "number": "3022"
+      }
+    ]
+  },
+  {
+    "imageName": "Christmas Red — medium",
+    "colorsIcon": "ic_color_symbol_34",
+    "size": "5",
+    "red": 156,
+    "green": 52,
+    "blue": 53,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "304"
+      },
+      {
+        "title": "Gamma",
+        "number": "4005"
+      }
+    ]
+  },
+  {
+    "imageName": "Lemon",
+    "colorsIcon": "ic_color_symbol_35",
+    "size": "5",
+    "red": 245,
+    "green": 225,
+    "blue": 54,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "307"
+      },
+      {
+        "title": "Gamma",
+        "number": "3192"
+      }
+    ]
+  },
+  {
+    "imageName": "Rose — dark",
+    "colorsIcon": "ic_color_symbol_36",
+    "size": "5",
+    "red": 182,
+    "green": 68,
+    "blue": 83,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "309"
+      },
+      {
+        "title": "Gamma",
+        "number": "3090"
+      }
+    ]
+  },
+  {
+    "imageName": "Black",
+    "colorsIcon": "ic_color_symbol_37",
+    "size": "5",
+    "red": 0,
+    "green": 0,
+    "blue": 0,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "310"
+      },
+      {
+        "title": "Gamma",
+        "number": "black"
+      }
+    ]
+  },
+  {
+    "imageName": "Navy Blue — medium",
+    "colorsIcon": "ic_color_symbol_38",
+    "size": "5",
+    "red": 49,
+    "green": 81,
+    "blue": 110,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "311"
+      },
+      {
+        "title": "Gamma",
+        "number": "3119"
+      }
+    ]
+  },
+  {
+    "imageName": "Navy Blue — light",
+    "colorsIcon": "ic_color_symbol_39",
+    "size": "5",
+    "red": 58,
+    "green": 98,
+    "blue": 135,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "312"
+      },
+      {
+        "title": "Gamma",
+        "number": "3118"
+      }
+    ]
+  },
+  {
+    "imageName": "Antique Mauve — medium dark",
+    "colorsIcon": "ic_color_symbol_40",
+    "size": "5",
+    "red": 141,
+    "green": 93,
+    "blue": 93,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "315"
+      },
+      {
+        "title": "Gamma",
+        "number": "3099"
+      }
+    ]
+  },
+  {
+    "imageName": "Antique Mauve — medium",
+    "colorsIcon": "ic_color_symbol_41",
+    "size": "5",
+    "red": 188,
+    "green": 135,
+    "blue": 154,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "316"
+      },
+      {
+        "title": "Gamma",
+        "number": "3098"
+      }
+    ]
+  },
+  {
+    "imageName": "Pewter Gray",
+    "colorsIcon": "ic_color_symbol_42",
+    "size": "5",
+    "red": 100,
+    "green": 108,
+    "blue": 110,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "317"
+      },
+      {
+        "title": "Gamma",
+        "number": "3232"
+      }
+    ]
+  },
+  {
+    "imageName": "Steel Gray — light",
+    "colorsIcon": "ic_color_symbol_43",
+    "size": "5",
+    "red": 160,
+    "green": 167,
+    "blue": 176,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "318"
+      },
+      {
+        "title": "Gamma",
+        "number": "3256"
+      }
+    ]
+  },
+  {
+    "imageName": "Pistachio Green — very dark",
+    "colorsIcon": "ic_color_symbol_44",
+    "size": "5",
+    "red": 55,
+    "green": 98,
+    "blue": 62,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "319"
+      },
+      {
+        "title": "Gamma",
+        "number": "719"
+      }
+    ]
+  },
+  {
+    "imageName": "Pistachio Green — medium",
+    "colorsIcon": "ic_color_symbol_45",
+    "size": "5",
+    "red": 114,
+    "green": 159,
+    "blue": 116,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "320"
+      },
+      {
+        "title": "Gamma",
+        "number": "3151"
+      }
+    ]
+  },
+  {
+    "imageName": "Christmas Red",
+    "colorsIcon": "ic_color_symbol_46",
+    "size": "5",
+    "red": 204,
+    "green": 35,
+    "blue": 55,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "321"
+      },
+      {
+        "title": "Gamma",
+        "number": "120"
+      }
+    ]
+  },
+  {
+    "imageName": "Navy Blue — very light",
+    "colorsIcon": "ic_color_symbol_47",
+    "size": "5",
+    "red": 101,
+    "green": 127,
+    "blue": 156,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "322"
+      },
+      {
+        "title": "Gamma",
+        "number": "3052"
+      }
+    ]
+  },
+  {
+    "imageName": "Rose — very dark",
+    "colorsIcon": "ic_color_symbol_48",
+    "size": "5",
+    "red": 167,
+    "green": 37,
+    "blue": 53,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "326"
+      },
+      {
+        "title": "Gamma",
+        "number": "64"
+      }
+    ]
+  },
+  {
+    "imageName": "Violet — very dark",
+    "colorsIcon": "ic_color_symbol_49",
+    "size": "5",
+    "red": 113,
+    "green": 55,
+    "blue": 87,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "327"
+      },
+      {
+        "title": "Gamma",
+        "number": "3108"
+      }
+    ]
+  },
+  {
+    "imageName": "Blue Violet — very dark",
+    "colorsIcon": "ic_color_symbol_50",
+    "size": "5",
+    "red": 108,
+    "green": 81,
+    "blue": 133,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "333"
+      },
+      {
+        "title": "Gamma",
+        "number": "79"
+      }
+    ]
+  },
+  {
+    "imageName": "Baby Blue — medium",
+    "colorsIcon": "ic_color_symbol_51",
+    "size": "5",
+    "red": 77,
+    "green": 106,
+    "blue": 139,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "334"
+      },
+      {
+        "title": "Gamma",
+        "number": "757"
+      }
+    ]
+  },
+  {
+    "imageName": "Rose",
+    "colorsIcon": "ic_color_symbol_52",
+    "size": "5",
+    "red": 227,
+    "green": 110,
+    "blue": 128,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "335"
+      },
+      {
+        "title": "Gamma",
+        "number": "3089"
+      }
+    ]
+  },
+  {
+    "imageName": "Navy Blue",
+    "colorsIcon": "ic_color_symbol_53",
+    "size": "5",
+    "red": 12,
+    "green": 18,
+    "blue": 36,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "336"
+      },
+      {
+        "title": "Gamma",
+        "number": "26"
+      }
+    ]
+  },
+  {
+    "imageName": "Blue Violet — medium",
+    "colorsIcon": "ic_color_symbol_54",
+    "size": "5",
+    "red": 147,
+    "green": 138,
+    "blue": 191,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "340"
+      },
+      {
+        "title": "Gamma",
+        "number": "78"
+      }
+    ]
+  },
+  {
+    "imageName": "Blue Violet — light",
+    "colorsIcon": "ic_color_symbol_55",
+    "size": "5",
+    "red": 162,
+    "green": 173,
+    "blue": 204,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "341"
+      },
+      {
+        "title": "Gamma",
+        "number": "3047"
+      }
+    ]
+  },
+  {
+    "imageName": "Salmon — very dark",
+    "colorsIcon": "ic_color_symbol_56",
+    "size": "5",
+    "red": 189,
+    "green": 63,
+    "blue": 54,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "347"
+      },
+      {
+        "title": "Gamma",
+        "number": "62"
+      }
+    ]
+  },
+  {
+    "imageName": "Coral — dark",
+    "colorsIcon": "ic_color_symbol_57",
+    "size": "5",
+    "red": 192,
+    "green": 72,
+    "blue": 54,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "349"
+      },
+      {
+        "title": "Gamma",
+        "number": "708"
+      }
+    ]
+  },
+  {
+    "imageName": "Coral — medium",
+    "colorsIcon": "ic_color_symbol_58",
+    "size": "5",
+    "red": 226,
+    "green": 102,
+    "blue": 76,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "350"
+      },
+      {
+        "title": "Gamma",
+        "number": "707"
+      }
+    ]
+  },
+  {
+    "imageName": "Coral",
+    "colorsIcon": "ic_color_symbol_59",
+    "size": "5",
+    "red": 245,
+    "green": 132,
+    "blue": 105,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "351"
+      },
+      {
+        "title": "Gamma",
+        "number": "0705"
+      }
+    ]
+  },
+  {
+    "imageName": "Coral — light",
+    "colorsIcon": "ic_color_symbol_60",
+    "size": "5",
+    "red": 244,
+    "green": 157,
+    "blue": 131,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "352"
+      },
+      {
+        "title": "Gamma",
+        "number": "3073"
+      }
+    ]
+  },
+  {
+    "imageName": "Peach",
+    "colorsIcon": "ic_color_symbol_61",
+    "size": "5",
+    "red": 252,
+    "green": 188,
+    "blue": 163,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "353"
+      },
+      {
+        "title": "Gamma",
+        "number": "703"
+      }
+    ]
+  },
+  {
+    "imageName": "Terra Cotta — dark",
+    "colorsIcon": "ic_color_symbol_62",
+    "size": "5",
+    "red": 152,
+    "green": 60,
+    "blue": 48,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "355"
+      },
+      {
+        "title": "Gamma",
+        "number": "3211"
+      }
+    ]
+  },
+  {
+    "imageName": "Terra Cotta — medium",
+    "colorsIcon": "ic_color_symbol_63",
+    "size": "5",
+    "red": 159,
+    "green": 103,
+    "blue": 89,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "356"
+      },
+      {
+        "title": "Gamma",
+        "number": "768"
+      }
+    ]
+  },
+  {
+    "imageName": "Pistachio Green — dark",
+    "colorsIcon": "ic_color_symbol_64",
+    "size": "5",
+    "red": 77,
+    "green": 111,
+    "blue": 73,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "367"
+      },
+      {
+        "title": "Gamma",
+        "number": "89"
+      }
+    ]
+  },
+  {
+    "imageName": "Pistachio Green — light",
+    "colorsIcon": "ic_color_symbol_65",
+    "size": "5",
+    "red": 146,
+    "green": 170,
+    "blue": 133,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "368"
+      },
+      {
+        "title": "Gamma",
+        "number": "716"
+      }
+    ]
+  },
+  {
+    "imageName": "Pistachio Green — very light",
+    "colorsIcon": "ic_color_symbol_66",
+    "size": "5",
+    "red": 204,
+    "green": 219,
+    "blue": 191,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "369"
+      },
+      {
+        "title": "Gamma",
+        "number": "715"
+      }
+    ]
+  },
+  {
+    "imageName": "Mustard — medium",
+    "colorsIcon": "ic_color_symbol_67",
+    "size": "5",
+    "red": 186,
+    "green": 169,
+    "blue": 91,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "370"
+      },
+      {
+        "title": "Gamma",
+        "number": "3068"
+      }
+    ]
+  },
+  {
+    "imageName": "Mustard",
+    "colorsIcon": "ic_color_symbol_68",
+    "size": "5",
+    "red": 159,
+    "green": 142,
+    "blue": 81,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "371"
+      },
+      {
+        "title": "Gamma",
+        "number": "3175"
+      }
+    ]
+  },
+  {
+    "imageName": "Mustard — light",
+    "colorsIcon": "ic_color_symbol_69",
+    "size": "5",
+    "red": 155,
+    "green": 139,
+    "blue": 78,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "372"
+      },
+      {
+        "title": "Gamma",
+        "number": "92"
+      }
+    ]
+  },
+  {
+    "imageName": "Mahogany — dark",
+    "colorsIcon": "ic_color_symbol_70",
+    "size": "5",
+    "red": 146,
+    "green": 77,
+    "blue": 45,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "400"
+      },
+      {
+        "title": "Gamma",
+        "number": "3023"
+      }
+    ]
+  },
+  {
+    "imageName": "Mahogany — very light",
+    "colorsIcon": "ic_color_symbol_71",
+    "size": "5",
+    "red": 231,
+    "green": 167,
+    "blue": 114,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "402"
+      },
+      {
+        "title": "Gamma",
+        "number": "3207"
+      }
+    ]
+  },
+  {
+    "imageName": "Desert Sand — dark",
+    "colorsIcon": "ic_color_symbol_72",
+    "size": "5",
+    "red": 195,
+    "green": 154,
+    "blue": 136,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "407"
+      },
+      {
+        "title": "Gamma",
+        "number": "3773"
+      }
+    ]
+  },
+  {
+    "imageName": "Pewter Gray — dark",
+    "colorsIcon": "ic_color_symbol_73",
+    "size": "5",
+    "red": 83,
+    "green": 86,
+    "blue": 87,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "413"
+      },
+      {
+        "title": "Gamma",
+        "number": "3259"
+      }
+    ]
+  },
+  {
+    "imageName": "Steel Gray — dark",
+    "colorsIcon": "ic_color_symbol_74",
+    "size": "5",
+    "red": 149,
+    "green": 144,
+    "blue": 157,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "414"
+      },
+      {
+        "title": "Gamma",
+        "number": "61"
+      }
+    ]
+  },
+  {
+    "imageName": "Pearl Gray",
+    "colorsIcon": "ic_color_symbol_75",
+    "size": "5",
+    "red": 211,
+    "green": 212,
+    "blue": 219,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "415"
+      },
+      {
+        "title": "Gamma",
+        "number": "3255"
+      }
+    ]
+  },
+  {
+    "imageName": "Hazelnut Brown — dark",
+    "colorsIcon": "ic_color_symbol_76",
+    "size": "5",
+    "red": 133,
+    "green": 97,
+    "blue": 44,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "420"
+      },
+      {
+        "title": "Gamma",
+        "number": "3108"
+      }
+    ]
+  },
+  {
+    "imageName": "Hazelnut Brown — light",
+    "colorsIcon": "ic_color_symbol_77",
+    "size": "5",
+    "red": 207,
+    "green": 185,
+    "blue": 125,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "422"
+      }
+    ]
+  },
+  {
+    "imageName": "Brown — medium",
+    "colorsIcon": "ic_color_symbol_78",
+    "size": "5",
+    "red": 118,
+    "green": 84,
+    "blue": 57,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "433"
+      },
+      {
+        "title": "Gamma",
+        "number": "0217"
+      }
+    ]
+  },
+  {
+    "imageName": "Brown — light",
+    "colorsIcon": "ic_color_symbol_79",
+    "size": "5",
+    "red": 182,
+    "green": 129,
+    "blue": 62,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "434"
+      },
+      {
+        "title": "Gamma",
+        "number": "22"
+      }
+    ]
+  },
+  {
+    "imageName": "Brown — very light",
+    "colorsIcon": "ic_color_symbol_80",
+    "size": "5",
+    "red": 195,
+    "green": 133,
+    "blue": 65,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "435"
+      },
+      {
+        "title": "Gamma",
+        "number": "7"
+      }
+    ]
+  },
+  {
+    "imageName": "Tan",
+    "colorsIcon": "ic_color_symbol_81",
+    "size": "5",
+    "red": 191,
+    "green": 148,
+    "blue": 92,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "436"
+      },
+      {
+        "title": "Gamma",
+        "number": "3218"
+      }
+    ]
+  },
+  {
+    "imageName": "Tan — light",
+    "colorsIcon": "ic_color_symbol_82",
+    "size": "5",
+    "red": 216,
+    "green": 183,
+    "blue": 125,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "437"
+      },
+      {
+        "title": "Gamma",
+        "number": "54"
+      }
+    ]
+  },
+  {
+    "imageName": "Lemon — dark",
+    "colorsIcon": "ic_color_symbol_83",
+    "size": "5",
+    "red": 244,
+    "green": 211,
+    "blue": 47,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "444"
+      },
+      {
+        "title": "Gamma",
+        "number": "516"
+      }
+    ]
+  },
+  {
+    "imageName": "Lemon — light",
+    "colorsIcon": "ic_color_symbol_84",
+    "size": "5",
+    "red": 240,
+    "green": 236,
+    "blue": 139,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "445"
+      },
+      {
+        "title": "Gamma",
+        "number": "5140"
+      }
+    ]
+  },
+  {
+    "imageName": "Shell Gray — dark",
+    "colorsIcon": "ic_color_symbol_85",
+    "size": "5",
+    "red": 151,
+    "green": 139,
+    "blue": 130,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "451"
+      },
+      {
+        "title": "Gamma",
+        "number": "674"
+      }
+    ]
+  },
+  {
+    "imageName": "Shell Gray — medium",
+    "colorsIcon": "ic_color_symbol_86",
+    "size": "5",
+    "red": 187,
+    "green": 174,
+    "blue": 167,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "452"
+      },
+      {
+        "title": "Gamma",
+        "number": "0067"
+      }
+    ]
+  },
+  {
+    "imageName": "Shell Gray — light",
+    "colorsIcon": "ic_color_symbol_87",
+    "size": "5",
+    "red": 227,
+    "green": 220,
+    "blue": 219,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "453"
+      },
+      {
+        "title": "Gamma",
+        "number": "670"
+      }
+    ]
+  },
+  {
+    "imageName": "Avocado Green",
+    "colorsIcon": "ic_color_symbol_88",
+    "size": "5",
+    "red": 120,
+    "green": 133,
+    "blue": 61,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "469"
+      },
+      {
+        "title": "Gamma",
+        "number": "90"
+      }
+    ]
+  },
+  {
+    "imageName": "Avocado Green — light",
+    "colorsIcon": "ic_color_symbol_89",
+    "size": "5",
+    "red": 146,
+    "green": 160,
+    "blue": 89,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "470"
+      },
+      {
+        "title": "Gamma",
+        "number": "3161"
+      }
+    ]
+  },
+  {
+    "imageName": "Avocado Green — very light",
+    "colorsIcon": "ic_color_symbol_90",
+    "size": "5",
+    "red": 146,
+    "green": 152,
+    "blue": 62,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "471"
+      },
+      {
+        "title": "Gamma",
+        "number": "8"
+      }
+    ]
+  },
+  {
+    "imageName": "Avocado Green — ultra light",
+    "colorsIcon": "ic_color_symbol_91",
+    "size": "5",
+    "red": 150,
+    "green": 37,
+    "blue": 47,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "498"
+      },
+      {
+        "title": "Gamma",
+        "number": "709"
+      }
+    ]
+  },
+  {
+    "imageName": "Blue Green — very dark",
+    "colorsIcon": "ic_color_symbol_92",
+    "size": "5",
+    "red": 21,
+    "green": 54,
+    "blue": 31,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "500"
+      },
+      {
+        "title": "Gamma",
+        "number": "906"
+      }
+    ]
+  },
+  {
+    "imageName": "Blue Green — dark",
+    "colorsIcon": "ic_color_symbol_93",
+    "size": "5",
+    "red": 74,
+    "green": 111,
+    "blue": 92,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "501"
+      },
+      {
+        "title": "Gamma",
+        "number": "957"
+      }
+    ]
+  },
+  {
+    "imageName": "Blue Green",
+    "colorsIcon": "ic_color_symbol_94",
+    "size": "5",
+    "red": 122,
+    "green": 154,
+    "blue": 132,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "502"
+      },
+      {
+        "title": "Gamma",
+        "number": "3145"
+      }
+    ]
+  },
+  {
+    "imageName": "Blue Green — medium",
+    "colorsIcon": "ic_color_symbol_95",
+    "size": "5",
+    "red": 143,
+    "green": 189,
+    "blue": 169,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "503"
+      },
+      {
+        "title": "Gamma",
+        "number": "954"
+      }
+    ]
+  },
+  {
+    "imageName": "Jade",
+    "colorsIcon": "ic_color_symbol_96",
+    "size": "5",
+    "red": 67,
+    "green": 129,
+    "blue": 85,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "505"
+      },
+      {
+        "title": "Gamma",
+        "number": "953"
+      }
+    ]
+  },
+  {
+    "imageName": "Wedgwood — dark",
+    "colorsIcon": "ic_color_symbol_97",
+    "size": "5",
+    "red": 29,
+    "green": 110,
+    "blue": 144,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "517"
+      },
+      {
+        "title": "Gamma",
+        "number": "513"
+      }
+    ]
+  },
+  {
+    "imageName": "Wedgwood — light",
+    "colorsIcon": "ic_color_symbol_98",
+    "size": "5",
+    "red": 109,
+    "green": 156,
+    "blue": 184,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "518"
+      },
+      {
+        "title": "Gamma",
+        "number": "3055"
+      }
+    ]
+  },
+  {
+    "imageName": "Sky Blue",
+    "colorsIcon": "ic_color_symbol_99",
+    "size": "5",
+    "red": 169,
+    "green": 198,
+    "blue": 215,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "519"
+      },
+      {
+        "title": "Gamma",
+        "number": "3054"
+      }
+    ]
+  },
+  {
+    "imageName": "Fern Green — dark",
+    "colorsIcon": "ic_color_symbol_100",
+    "size": "5",
+    "red": 79,
+    "green": 95,
+    "blue": 55,
+    "thread": [
+      {
+        "title": "DMC",
+        "number": "520"
+      },
+      {
+        "title": "Gamma",
+        "number": "3167"
+      }
+    ]
+  }
+]

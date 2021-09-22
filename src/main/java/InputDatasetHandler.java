@@ -1,147 +1,150 @@
 import org.apache.poi.hssf.usermodel.HSSFCell;
 import org.apache.poi.hssf.usermodel.HSSFSheet;
+import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
 
-import java.util.ArrayList;
-import java.util.Iterator;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.*;
+
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
+import org.json.simple.parser.ParseException;
 
 public class InputDatasetHandler {
-    private ArrayList<Row> findRowsToDelete(HSSFSheet sheet){
+
+    private void createJSONObjectThreads(JSONArray jsonArrayThreads, Row row) {
+        List<String> threadsTitle = Arrays.asList("DMC", "Gamma", "Madeira", "Anchor", "PNK im. Kirova", "Dimensions", "Dome", "Bucilla", "J&P Coats", "BELKA", "Olympus", "COSMO", "Yeidam (耶单)", "SEMCO");
+        for (int i = 0; i < threadsTitle.size(); i++) {
+            int cellNum = i + 4;
+            createThreadsObject(jsonArrayThreads, threadsTitle.get(i), String.valueOf(row.getCell(cellNum)));
+        }
+    }
+
+    public static boolean contains(String pattern, String content) {
+        return content.matches(pattern);
+    }
+
+    private void createThreadsObject(JSONArray jsonArrayThreads, String threadTitle, String number) {
+        if (contains("(.*).(.*)", number)) {
+            number = number.split("\\.", 2)[0];
+        }
+        if (!number.equals("nil")) {
+            JSONObject jThread = new JSONObject();
+            jThread.put("title", threadTitle);
+            jThread.put("number", number);
+            jsonArrayThreads.add(jThread);
+        }
+
+    }
+
+    private JSONObject createJSONObjectColors(String imageName, String red, String green, String blue, String colorsIcon) {
+        JSONObject jo = new JSONObject();
+
+        jo.put("imageName", imageName);
+        jo.put("colorsIcon", colorsIcon);
+        jo.put("size", "5");
+        jo.put("red", red);
+        jo.put("green", green);
+        jo.put("blue", blue);
+        return jo;
+    }
+
+
+    public ArrayList<Row> getRow(HSSFSheet sheet) throws IOException, ParseException {
+
+        prepareData(sheet);
         ArrayList<Row> arrayList = new ArrayList<>();
         Iterator<Row> rowIterator = sheet.rowIterator();
+        Map<String, String> colorsInApp = getColorsArray();
         int number = 0;
-        for (int i = 0; i < 3; i++) rowIterator.next();
 
-        while (rowIterator.hasNext()){
+        JSONArray jsonArray = new JSONArray();
+        for (int i = 0; i < 1; i++) rowIterator.next();
+
+        while (rowIterator.hasNext()) {
             Row row = rowIterator.next();
-            if ((row.getCell(31).getNumericCellValue()==0.0)&&(row.getCell(32).getNumericCellValue()==0.0)&&
-                    (row.getCell(33)==null)) {
-                arrayList.add(row);
+            String value = String.valueOf(row.getCell(2));
+            if (colorsInApp.containsKey(value)) {
+                JSONObject jo = getJsonObject(row, colorsInApp.get(value));
+                jsonArray.add(jo);
+//                System.out.println(row.getCell(2));
             }
-            if (number == 184) break;
+            if (number == 447) break;
             number++;
         }
+
+        createFile(jsonArray);
         return arrayList;
     }
 
-    private void deleteRows(HSSFSheet sheet, ArrayList<Row> rowsToDelete){
-        for (Row row : rowsToDelete)
-            sheet.removeRow(row);
+    private void createFile(JSONArray jsonArray) throws IOException {
+        FileWriter file = new FileWriter("out.json");
+        jsonArray.writeJSONString(file);
+        file.flush();
+        file.close();
     }
 
-    private void printRowCount(HSSFSheet sheet){
-        Iterator<Row> iterator = sheet.rowIterator();
-        while (iterator.hasNext()){
-            iterator.next();
-        }
-    }
-    private ArrayList<Integer> createNotEmptyRowsList(HSSFSheet sheet){
-        ArrayList<Integer> list = new ArrayList<>();
-        Iterator<Row> iterator = sheet.rowIterator();
-        while (iterator.hasNext()){
-            Row row = iterator.next();
-            list.add(row.getRowNum());
-        }
-        return list;
-    }
-    public void shiftRows(HSSFSheet sheet){
-        ArrayList<Integer> list = createNotEmptyRowsList(sheet);
-        for(int i = sheet.getLastRowNum(); i > 0; i--){
-            if(!list.contains(i)){
-                sheet.shiftRows(i + 1, sheet.getLastRowNum(), -1);
-            }
-        }
-    }
-    public void deleteWithoutShift(HSSFSheet sheet) {
-        ArrayList<Row> rows = findRowsToDelete(sheet);
-        printRowCount(sheet);
-        deleteRows(sheet, rows);
-        printRowCount(sheet);
-    }
-    public void calcValuesKGF(HSSFSheet sheet){
-        Iterator<Row> iterator = sheet.rowIterator();
-        for (int i = 0; i < 3; i++) iterator.next();
-        int number = 3;
-        while (iterator.hasNext()){
-            Row row = iterator.next();
-            if ((row.getCell(32).getNumericCellValue() == 0.0) &&
-                    (row.getCell(33) != null)) {
-                HSSFCell cell = (HSSFCell) row.getCell(32);
-                cell.setCellValue(row.getCell(33).getNumericCellValue() * 1000);
-            }
-            number++;
-            if (number >= 96) break;
+    private JSONObject getJsonObject(Row row, String number) {
+        String[] rgb = getRGBSubstring(String.valueOf(row.getCell(1)));
+        String red = rgb[0];
+        String green = rgb[1];
+        String blue = rgb[2];
 
-        }
-    }
-    public void deleteLastColumn(HSSFSheet sheet) {
-        Iterator<Row> iterator = sheet.rowIterator();
-        while (iterator.hasNext()){
-            Row row = iterator.next();
-            if (row.getCell(33) != null)
-                row.removeCell(row.getCell(33));
-        }
+        JSONObject jo = createJSONObjectColors(String.valueOf(row.getCell(2)), red, green, blue, number);
+        JSONArray jsonArrayThreads = new JSONArray();
+        createJSONObjectThreads(jsonArrayThreads, row);
+        jo.put("thread", jsonArrayThreads);
+        return jo;
     }
 
-    public void printColumn(HSSFSheet sheet) {
-        Iterator<Row> iterator = sheet.rowIterator();
-        int number = 31, i = 0;
-        while (iterator.hasNext()){
-            i++;
-            Row row = iterator.next();
-            if ((i >= 4) && (row.getCell(number) != null) && (
-                    ((row.getCell(number).getCellType().toString().equals("STRING")) && ((row.getCell(number).getStringCellValue().equals("-"))||(row.getCell(number).getStringCellValue().equals("не спускался"))))
-                            ||(row.getCell(number).getCellType().toString().equals("BLANK")) && (row.getCell(number).getNumericCellValue()==0.0)));
+    private String[] getRGBSubstring(String rgb) {
+        String[] subStr;
+        String delimiter = ",";
+        subStr = rgb.split(delimiter);
+        for (int i = 0; i < subStr.length; i++) {
+//            System.out.println(subStr[i]);
         }
+        return subStr;
     }
 
-    public void toNull(HSSFSheet sheet) {
-        Iterator<Row> iterator = sheet.rowIterator();
-        int number = 32, i = 0;
-        while (iterator.hasNext()){
-            i++;
-            Row row = iterator.next();
-            if ((i >= 4) && (i < 97))
-                for (int column_num = 0; column_num <= number; column_num++) {
-                    if ((row.getCell(column_num) != null) && (
-                            ((row.getCell(column_num).getCellType().toString().equals("STRING")) && ((row.getCell(column_num).getStringCellValue().equals("-")) || (row.getCell(column_num).getStringCellValue().equals("не спускался"))))
-                                    || (row.getCell(column_num).getCellType().toString().equals("BLANK")) && (row.getCell(column_num).getNumericCellValue() == 0.0))) {
-                        row.removeCell(row.getCell(column_num));
-                    }
+    public void prepareData(HSSFSheet sheet) {
+        Iterator<Row> rowIterator = sheet.rowIterator();
+        int number = 0;
+        for (int i = 0; i < 1; i++) rowIterator.next();
+
+        while (rowIterator.hasNext()) {
+            Row row = rowIterator.next();
+            for (int i = 0; i < row.getLastCellNum(); i++) {
+                Cell cell = row.getCell(i);
+                if (String.valueOf(cell).equals("—") || String.valueOf(cell).equals("") || String.valueOf(cell).equals("\u2014")) {
+                    cell.setCellValue("nil");
                 }
+            }
+            if (number == 447) {
+                break;
+            }
+            number++;
         }
     }
 
-    private ArrayList<Integer> findHighPercent(HSSFSheet sheet) {
-        Iterator<Row> iterator = sheet.rowIterator();
-        iterator.next();
-        Row row = iterator.next();
-        double nullColumn[] = new double[row.getLastCellNum()];
-        iterator.next();
-        for (int i = 4; i < 97; i++){
-            row = iterator.next();
-            for (int j = 2; j < 31; j++)
-                if (row.getCell(j) == null)
-                    nullColumn[j]++;
-        }
-        double total = 93.0;
-        ArrayList<Integer> arrayList = new ArrayList<>();
-        for (int i = 2; i < 31; i++) {
-            nullColumn[i] = nullColumn[i] / total * 100.0;
-            if (nullColumn[i] > 60.0)
-                arrayList.add(i);
-        }
-        return arrayList;
-    }
+    public Map<String, String> getColorsArray() throws IOException, ParseException {
+        JSONParser parser = new JSONParser();
+        Map<String, String> colors = new HashMap<>();
+        JSONArray a = (JSONArray) parser.parse(new FileReader("list_threads.json"));
 
-    public void deleteUnnecessaryColumns(HSSFSheet sheet) {
-        ArrayList<Integer> columnList = findHighPercent(sheet);
-        Iterator<Row> iterator = sheet.rowIterator();
-        while (iterator.hasNext()){
-            Row row = iterator.next();
-            for (int col : columnList)
-                if (row.getCell(col) != null)
-                    row.removeCell(row.getCell(col));
+        for (Object o : a)
+        {
+            JSONObject thread = (JSONObject) o;
+
+            String name = (String) thread.get("imageName");
+            String icon = (String) thread.get("colorsIcon");
+//            System.out.println(name);
+            colors.put(name, icon);
         }
+        return colors;
     }
 }
